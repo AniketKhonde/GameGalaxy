@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/Gameicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GameGalaxy</title>
+    <script src="../javascript/index-script.js"></script>
+    <link rel="stylesheet" href="../css/index-style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="heading"> <i class="fa-solid fa-gamepad"></i>GameGalaxy</h1>
+    </div>
+    <div class="main">
+        <h1 style="color: rgb(216, 30, 13);">O<br>U<br>R<br> <br> G<br>A<br>M<br>E<br>S</h1>
+        <div class="snake space">
+            <h2>Snake Game</h2>
+            <img src="../images/snake_game.jpg" alt="snake game">
+            <br>
+            <button class="button1" onclick="playSnakegame()">Play</button>
+
+        </div>
+        <div class="hangman space">
+            <h2>Hangman Game</h2>
+            <img src="../images/hangman.jpg" alt="hangman game">
+            <br>
+            <button class="button1" onclick="playHangman()">Play</button>
+
+        </div>
+
+        <div class="riddles space">
+            <h2>Riddels Game</h2>
+            <img src="../images/riddles.jpg" alt="riddles game">
+            <br>
+            <Button class="button1" onclick="playRiddles()">Play</Button>
+        </div>
+
+        <div class="tictactoe space">
+            <h2>Tic-Tac_Toe Game</h2>
+            <img src="../images/tictactoe.png" alt="tictactoe gamee">
+            <br>
+            <button class="button1" onclick="playTictactoe()">Play</button>
+        </div>
+
+        <span class="topgames" >Top Online games for you</span>
+        <div class="second">
+            <div class="games">
+                <h2>MotoX3M</h2>
+                <img src="../images/game1.avif" alt="snake game">
+                <br>
+                <span class="span">4.4 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(1)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Stick Merge</h2>
+                <img src="../images/game2.avif" alt="snake game">
+                <br>
+                <span class="span">4.6 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(2)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Bascketball Stars</h2>
+                <img src="../images/game3.avif" alt="snake game">
+                <br>
+                <span class="span">4.8 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(3)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>crazy Car</h2>
+                <img src="../images/game4.avif" alt="snake game">
+                <br>
+                <span class="span">4.1 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(4)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Ludo King</h2>
+                <img src="../images/game5.avif" alt="snake game">
+                <br>
+                <span class="span">4.7 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(5)">Play Online</button>
+
+            </div>
+
+            <div class="snake space">
+                <h2>cricket</h2>
+                <img src="../images/game6.avif" alt="snake game">
+                <br>
+                <span class="span">4.1 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(6)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Pool master</h2>
+                <img src="../images/game7.avif" alt="snake game">
+                <br>
+                <span class="span">4.4 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(7)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Crossy Road</h2>
+                <img src="../images/game8.avif" alt="snake game">
+                <br>
+                <span class="span">4.7 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(8)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Dreadhead Parkour</h2>
+                <img src="../images/game9.avif" alt="snake game">
+                <br>
+                <span class="span">4.8 <i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(9)">Play Online</button>
+
+            </div>
+
+            <div class="games">
+                <h2>Mater Chess</h2>
+                <img src="../images/game10.avif" alt="snake game">
+                <br>
+                <span class="span">4.1<i class="fa-solid fa-star"></i></span>
+                <button class="btn1" onclick="playOnline(10)">Play Online</button>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Contact</h1>
+        <div class="contact">
+            <div class="linkedin">
+                <img src="../images/linkedin.png" class="ci" onclick="openlinkedin()">
+
+            </div>
+
+            <div class="github">
+                <img src="../images/github.png" class="ci" onclick="opengithub()">
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

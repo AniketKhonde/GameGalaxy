@@ -1,0 +1,70 @@
+*{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    max-height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(161, 203, 240);
+    height: 16vh;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1000;
+    margin-top: -1vh;
+    margin-left: -1vh;
+}
+
+.heading {
+    margin-left: 42vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.board {
+    margin-top: 22vh;
+    margin-left: 85vh;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.winning-cell {
+    background-color: #7FFF00;
+    /* Change the color as per your preference */
+}
+
+.btn {
+    position: relative;
+    margin-top: 1vh;
+    left: 39vw;
+    padding: 12px;
+    width: 10vw;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+.h1 {
+    position: relative;
+left: 83vh;
+top: 19vh;
+font-size: 32px;
+font-weight: 900
+}

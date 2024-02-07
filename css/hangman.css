@@ -1,0 +1,67 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 17vh;
+    display: flex;
+  }
+  .navbar {
+    background-color: rgb(161, 203, 240);
+    height: 16vh;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1000;
+    margin-top: -17vh;
+  }
+  .heading {
+          margin-left: -5vw;
+  }
+  .contan{
+    margin-top: 10vh;
+  }
+
+  #hangman-container {
+    margin-top: 5vh;
+    margin-left: 23vw;
+    width: 50%;
+  }
+
+  #word-display {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  #hint {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  #life-counter {
+    font-size: 18px;
+  }
+
+  #alphabet-buttons {
+    margin-top: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .correct-letter {
+    background-color: #c0e218; /* Light green for correct letters */
+  }
+
+  .incorrect-letter {
+    background-color: #ff5c5c; /* Light red for incorrect letters */
+  }
+  h1{
+    font-size: 32px;
+    font-weight: 900;
+  }

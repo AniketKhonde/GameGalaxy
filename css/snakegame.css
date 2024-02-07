@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .navbar {
+    background-color: rgb(161, 203, 240);
+    height: 16vh;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1000;
+    margin-top: -83vh;
+  }
+  .heading {
+          margin-left: 40vw;
+      }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11vh;
+  }
+
+  .header {
+    position: relative;
+    top: 1vh;
+  }
+
+  canvas {
+    border: 2px solid #000;
+    position: fixed;
+    background-color: greenyellow;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 58vh;
+    margin-left: 0vw;
+    width: 18vh;
+    background-color: bisque;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+  }
